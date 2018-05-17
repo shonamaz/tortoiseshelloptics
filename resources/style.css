@@ -1,0 +1,78 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+  background-color: azure;
+}
+
+/* Hero elements */
+
+
+
+.hero-img {
+  background-image: url("./images/glasses-bg.png");
+  height: 30rem;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  width: 960px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header {
+  width: 100%;
+  background-color: cadetblue;
+  height: auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  height: 1.5rem;
+  width: auto;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+#logo-title {
+  padding: 1rem 0 1rem 0;
+}
+
+nav a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  padding-right: 2rem;
+}
+
+.tagline-box {
+  background-color: white;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  display: inline-block;
+  width: fit-content;
+  align-self: flex-end;
+}
+
+.tagline-box h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  text-transform: uppercase;
+}
